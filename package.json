@@ -1,6 +1,5 @@
 {
-	"name": "react-shopping-cart",
-	"proxy": "http://localhost:5000",
+	"name": "django-react-shop-cart",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -8,10 +7,6 @@
 		"@testing-library/react": "^12.1.4",
 		"@testing-library/user-event": "^13.5.0",
 		"axios": "^0.26.1",
-		"body-parser": "^1.19.2",
-		"express": "^4.17.3",
-		"mongoose": "^6.2.7",
-		"nodemon": "^2.0.15",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
 		"react-modal": "^3.14.4",
@@ -24,11 +19,14 @@
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
-		"server": "nodemon server.js",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
+	},
+	"engines": {
+		"node": "16.14.0",
+		"npm": "8.5.1"
 	},
 	"eslintConfig": {
 		"extends": [
